@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jose Piccioni"]
   spec.email         = ["josepiccioni@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Coding Exercise to check my skills.}
+  spec.description   = %q{A small Ruby gem that exposes a CLI to check the status of https://gitlab.com or https://about.gitlab.com and reports an average response time after probing the site every 10 seconds for a one minute. Mantainable in the long term is the idea behind the design. }
+  spec.homepage      = "https://gitlab.com/lmhsjackson/gitlab_status"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
