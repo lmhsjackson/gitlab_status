@@ -1,10 +1,9 @@
 before_script:
   - ruby -v
   - which ruby
-# rspec:
-#   script:
-#     - bundle exec rspec
-#
-#   rubocop:
-#     script:
-#       - bundle exec rubocop
+rspec:
+  script:
+    - bundle exec rspec
+  rubocop:
+    script:
+      - bundle exec rubocop
