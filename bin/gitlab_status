@@ -2,5 +2,18 @@
 # frozen_string_literal: true
 
 require 'gitlab_status'
+GITLAB_ABOUT = 'https://about.gitlab.com'
+GITLAB_HOME = 'https://gitlab.com'
 
-GitlabStatus.hello_world
+arg = ARGV[1] || 'home'
+
+case arg
+when 'home'
+  url = GITLAB_HOME
+when ''
+  url = GITLAB_ABOUT
+end
+
+# puts GitlabStatus.average_response(ABOUT_GITLAB)
+average_time = GitlabStatus.average_response(url)
+puts "\nThe average response time for #{url} is: #{average_time} seconds."
