@@ -31,4 +31,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rest-client', '~> 2.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 0.54.0'
+  spec.post_install_message = "\n--------GITLAB STATUS USAGE:-------- \n
+  Commands: gitlab_status 'home'\n
+  gitlab_status 'about'\n
+------------------------------------\n"
 end
