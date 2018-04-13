@@ -21,8 +21,12 @@ Or install it yourself as:
     $ gem install gitlab_status
 
 ## Usage
+  Commands:
 
-TODO: Write usage instructions here
+  gitlab_status 'home'
+  gitlab_status 'about'
+
+  if no argument is given gitlab_status will choose home by default.
 
 ## Development
 
