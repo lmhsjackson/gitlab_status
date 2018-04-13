@@ -1,4 +1,6 @@
 ---
+Metrics/BlockLength:
+  Enabled: false
 Style/MutableConstant:
   Enabled: false
 Style/HashSyntax:
